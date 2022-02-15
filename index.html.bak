@@ -30,7 +30,7 @@ alert(window.innerWidth);
 <body>
 <div class="roww">
 <div class="coll">DIV 1</div>
-<div class="coll">DIV 2</div>
+<div class="coll">DIV 1</div>
 <div class="coll">DIV 1</div>
 </div>
 </body>
