@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+<title>UI tutorial</title>
+<style>
+.roww{width:100%}
+.coll{background:green; float:left; height:300px; width:200px; margin:10px 0px 0px 20px;}
+@media only screen and (min-width:600px) and ( max-width:720px) 
+{ 
+.coll{background:blue; width:90%;}
+}
+@media only screen and (min-width:720px) and ( max-width:840px) 
+{ 
+.coll{background:red; width:40%;}
+}
+@media only screen and (min-width:480px) and ( max-width:600px) 
+{ 
+.coll{background:lightblue; width:80%;}
+}
+@media only screen and (min-width:360px) and ( max-width:479px) 
+{ 
+.coll{background:purple; width:80%;}
+}
+</style>
+<meta name="viewport" content="width=devicde-width,initial-scale=1"/>
+<script>
+alert(window.innerWidth);
+</script>
+</head>
+<body>
+<div class="roww">
+<div class="coll">DIV 1</div>
+<div class="coll">DIV 1</div>
+<div class="coll">DIV 1</div>
+</div>
+</body>
+</html>
